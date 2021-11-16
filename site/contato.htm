@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8"/>
+	<title> WWC - World Website Creation </title>
+	<link rel="stylesheet" href="_css/estilo4.css"/>
+
+<script language="javascript" type="text/javascript">
+
+function validar () {
+var nome  = form1.nome.value;
+var email = form1.email.value;
+
+if (nome == "") {
+alert ('Preencha o campo com seu nome');
+form1.nome.focus();
+return false;
+}
+
+if (email == "") {
+alert ('Preencha o campo com seu email');
+form1.email.focus();
+return false;
+}
+if (nome.length < 5) {
+alert('Digite seu nome completo');
+form1.nome.focus();
+return false;
+}
+}
+</script>
+
+</head>
+<body>
+<div id="interface">
+
+	<header id="cabecalho">
+	<hgroup>
+	<nav class="menu">
+	<h1>Meu Principal</h1>
+	<ul type="circle">
+		<li><a href="home.htm">Home</li></a>
+		<li><a href="portifolio.htm">Portifólio</li></a>
+		<li><a href="quem-somos.htm">Quem Somos</li></a>
+		<li><a href="contato.htm">Contato</li></a>
+	</ul>
+	</nav>
+	<h1>Websites para todo o mundo!</h1>
+	</hgroup>
+
+
+	<img id="icone"src="_img/logo.png"; width="200px">
+	</header>
+	
+<section class="formulario">
+
+<form name="form1" action="enviar.php" method="post">
+<label for="nome">Nome</label>
+<div>
+<input name="nome" type="text" size="50" style="height: 20px;">
+</div>
+
+</br>
+
+<label for="email">Email</label>
+<div>
+<input name="email" type="text" size="50" style="height: 20px;">
+</div>
+
+</br>
+
+<label for="mensagem">Mensagem</label>
+<div>
+<textarea name="msg" rows="10" cols="50" maxlength="250" ></textarea>
+</br>
+
+<input type="submit" onclick="return validar()">
+
+</form>
+</section>
+
+<footer id="rodape">
+<p>Colaboradores</br>
+André Gomes - Victor Myke - Thiago Felix - Victor Silva - Weverton Carlos - Jefferson da Silva- Jonas Chicarelli </p>
+</footer>
+</div>
+</body>
+</html>
