@@ -1,11 +1,11 @@
 @charset "UTF-8";
 @font-face{
 	font-family: 'fonte-logo';
-	src: url("../_font/Exo-Regular.ttf")
+	src: url("/docs/font/Exo-Regular.ttf")
 }	
 	body{
 		font-family: 'fonte-logo', sans-serif;
-		background-image: url("../img/background.jpeg");
+		background-image: url("/docs/img/background.jpeg");
 		color: rgba(0,0,0,1);
 		}
 	div#interface{
@@ -28,7 +28,7 @@ header#cabecalho img#icone {
 header#cabecalho {
 	border-bottom: 1px #606060 solid;
 	height: 200px;
-	background-image: url("../img/background2.jpg");
+	background-image: url("/docs/img/background2.jpg");
 	padding: 20px;
 }
 header#cabecalho h1 {
