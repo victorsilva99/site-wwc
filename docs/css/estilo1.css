@@ -5,7 +5,7 @@
 }	
 	body{
 		font-family: 'fonte-logo', sans-serif;
-		background-image: url("/docs/img/background.jpeg");
+		background-image: url("");
 		color: rgba(0,0,0,1);
 		}
 	div#interface{
@@ -28,7 +28,7 @@ header#cabecalho img#icone {
 header#cabecalho {
 	border-bottom: 1px #606060 solid;
 	height: 200px;
-	background-image: url("/docs/img/background2.jpg");
+	background-image: url("/docs/imagens/bground.jpeg");
 	padding: 20px;
 }
 header#cabecalho h1 {
