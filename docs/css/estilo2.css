@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @font-face{
 	font-family: 'fonte-logo';
-	src: url("../font/Exo-Regular.ttf")
+	src: url("../font/Exo-Regular.ttf");
 }	
 	body{
 		font-family: 'fonte-logo', sans-serif;

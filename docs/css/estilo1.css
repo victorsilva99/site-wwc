@@ -28,7 +28,7 @@ header#cabecalho img#icone {
 header#cabecalho {
 	border-bottom: 1px #606060 solid;
 	height: 200px;
-	background-image: url("../imagens/bground2.jpeg");
+	background-image: url("../imagens/bground2.jpg");
 	padding: 20px;
 }
 header#cabecalho h1 {
